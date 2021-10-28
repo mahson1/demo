@@ -38,4 +38,12 @@
 		</plugins>
 	</build>
 
+  <distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>test repo</name>
+      <url>Host to Company Repository</url>
+    </repository>
+  </distributionManagement>
+  
 </project>
