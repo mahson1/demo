@@ -42,3 +42,10 @@ jobs:
         update_odoo_module_version: true
       env:
         GITHUB_TOKEN: ${{ github.token }}
+        
+    - name: Create a Release
+      uses: elgohr/Github-Release-Action@master
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        args: MyReleaseMessage
