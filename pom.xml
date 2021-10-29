@@ -42,7 +42,7 @@
     <repository>
       <id>internal.repo</id>
       <name>test repo</name>
-      <url>Host to Company Repository</url>
+      <url>https://maven.pkg.github.com/mahson1/demo</url>
     </repository>
   </distributionManagement>
   
