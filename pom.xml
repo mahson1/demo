@@ -40,7 +40,7 @@
 
   <distributionManagement>
     <repository>
-      <id>internal.repo</id>
+      <id>mahson1</id>
       <name>test repo</name>
       <url>https://maven.pkg.github.com/mahson1/demo</url>
     </repository>
